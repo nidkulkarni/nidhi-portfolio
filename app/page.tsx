@@ -693,7 +693,7 @@ export default function Portfolio() {
                           <School className="w-4 h-4 sm:w-5 sm:h-5 text-primary mr-1 sm:mr-2" />
                           <span className="text-xs sm:text-sm text-muted-foreground">2017 - 2019</span>
                         </div>
-                        <h4 className="text-sm sm:text-xl font-semibold text-primary">Secondary Education</h4>
+                        <h4 className="text-sm sm:text-xl font-semibold text-primary">School</h4>
                         <p className="text-xs sm:text-sm text-muted-foreground">St. Joseph's School</p>
                         <div className="flex items-center justify-end">
                           <MapPin className="w-3 h-3 sm:w-4 sm:h-4 text-accent mr-1" />
