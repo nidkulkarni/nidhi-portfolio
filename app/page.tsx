@@ -366,9 +366,7 @@ export default function Portfolio() {
                 <button onClick={() => scrollToSection("more")} className="nav-link text-left">
                   More
                 </button>
-                <button onClick={() => scrollToSection("reviews")} className="nav-link text-left">
-                  Reviews
-                </button>
+               
               </div>
             </div>
           </div>
