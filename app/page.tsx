@@ -43,7 +43,7 @@ import {
   Layers,
   Terminal,
 } from "lucide-react"
-import SimpleReviewsSection from "@/components/simple-reviews-section"
+
 
 export default function Portfolio() {
   const [isDark, setIsDark] = useState(true)
@@ -311,9 +311,7 @@ export default function Portfolio() {
               <button onClick={() => scrollToSection("more")} className="nav-link">
                 More
               </button>
-              <button onClick={() => scrollToSection("reviews")} className="nav-link">
-                Reviews
-              </button>
+              
             </nav>
 
             <div className="flex items-center space-x-4">
@@ -1087,7 +1085,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      <SimpleReviewsSection />
+     
 
       {selectedImage && (
         <div
